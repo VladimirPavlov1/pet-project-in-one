@@ -1,3 +1,22 @@
+@import-normalize;
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: local('Inter-Regular'),
+  url('./fonts/Inter/static/Inter-Regular.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: local('Inter-Medium'),
+  url('./fonts/Inter/static/Inter-Medium.ttf')format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope-Regular';
+  src: local('Manrope-Regular'),
+  url('./fonts/Manrope/static/Manrope-Regular.ttf')format('truetype');
+}
 .App {
   text-align: center;
 }
