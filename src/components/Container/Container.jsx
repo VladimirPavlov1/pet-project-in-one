@@ -1,6 +1,8 @@
-const Container = () => {
+import { Wrapper } from "./Container.styled";
+
+const Container = ({children}) => {
     return (
-        <div></div>
+       <Wrapper>{children}</Wrapper>
     );
 }
 

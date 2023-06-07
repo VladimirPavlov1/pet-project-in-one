@@ -8,7 +8,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import { selectUser,selectAuth } from "redux/auth/selectors";
 import { useWindowSize } from "hooks/useResize";
-import { HeaderWrapper, Wrapper } from "./Header.styled";
+import { HeaderWrapper, Wrapper, NavWrapper } from "./Header.styled";
 
 
 
@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <HeaderWrapper>
             <Container>
-                <Wrapper>
+                <Wrapper user ={user}>
                     <Logo/>
                     <NavWrapper>
                         {isLoggedIn&&(
